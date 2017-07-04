@@ -16,9 +16,10 @@ public class Application {
         
         //Nace
         PrimerThread t1 = new PrimerThread();
-        
+        OtraTarea t2 = new OtraTarea();
         //Lo ponemos en estado iniciado: estado Runnable
-        t1.start(); 
+        t1.start();
+        t2.start();
         //El soguiente paso es meterlo a la cpu(esto lo hace el administrador de thread)
         
     }

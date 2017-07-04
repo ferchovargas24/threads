@@ -9,12 +9,13 @@ package threads1;
  *
  * @author T-
  */
-public class OtraTarea extends Thread {
+public class TareaReloj extends Thread{
 
     @Override
     public void run() {
-        String nombre = getName();
-        System.out.println("Soy el nuevo thread y me llamo " + nombre); 
+        while(true){
+            System.out.println("Me trabo!!!");
+        }
     }
     
 }
