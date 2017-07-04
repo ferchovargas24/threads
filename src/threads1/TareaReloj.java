@@ -13,8 +13,14 @@ public class TareaReloj extends Thread{
 
     @Override
     public void run() {
+        int i = 0;
         while(true){
-            System.out.println("Me trabo!!!");
+            System.out.println("Me trabo!!!"+ i++);
+            try{
+                Thread.sleep(1000);
+            }catch(InterruptedException e){
+                
+            }
         }
     }
     
