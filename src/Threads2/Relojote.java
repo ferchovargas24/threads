@@ -10,7 +10,7 @@ package Threads2;
  * @author T-
  * Aqui se usara el polimorfismo, esta clase es polimorfica
  */
-public class Relojote implements Runnable {
+public class Relojote implements Runnable, CompportamientoComer {
     
     public static void main(String[] args) {
         
