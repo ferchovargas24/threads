@@ -11,5 +11,6 @@ package Threads2;
  */
 public interface CompportamientoComer {
     
+    int x=0;
     public String obtenerHabitoAlimenticio();
 }
